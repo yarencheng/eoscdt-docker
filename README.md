@@ -27,7 +27,7 @@
 2. Build WASM
 
   ```
-  docker run -it --rm --volume $PWD:$PWD --workdir $PWD yarencheng/eoscdt-docker:v1.5.0 \
+  docker run -it --rm --volume $PWD:$PWD --workdir $PWD yarencheng/eoscdt-docker \
     eosio-cpp -o hello.wasm hello.cpp --abigen
   ```
 
@@ -37,7 +37,7 @@
 
 2. Run docker container
    ```
-   docker run -it --rm --volume $PWD:$PWD --workdir $PWD yarencheng/eoscdt-docker:v1.5.0
+   docker run -it --rm --volume $PWD:$PWD --workdir $PWD yarencheng/eoscdt-docker
    ```
 3. `cmake` in docker container
    ```

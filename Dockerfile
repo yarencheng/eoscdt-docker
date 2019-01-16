@@ -5,7 +5,8 @@ RUN apt-get update && \
     wget \
     cmake \
     make \
-    g++
+    g++ \
+    git
 
 RUN wget -q https://github.com/EOSIO/eosio.cdt/releases/download/v1.4.1/eosio.cdt-1.4.1.x86_64.deb && \
     apt-get install ./eosio.cdt-1.4.1.x86_64.deb && \

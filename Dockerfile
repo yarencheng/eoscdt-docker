@@ -5,7 +5,8 @@ RUN apt-get update && \
     wget \
     cmake \
     make \
-    g++
+    g++ \
+    git
 
 RUN wget -q https://github.com/EOSIO/eosio.cdt/releases/download/v1.5.0/eosio.cdt_1.5.0-1_amd64.deb && \
     apt-get install ./eosio.cdt_1.5.0-1_amd64.deb && \

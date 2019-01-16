@@ -7,6 +7,6 @@ RUN apt-get update && \
     make \
     g++
 
-RUN wget -q https://github.com/EOSIO/eosio.cdt/releases/download/v1.4.1/eosio.cdt-1.4.1.x86_64.deb && \
-    apt-get install ./eosio.cdt-1.4.1.x86_64.deb && \
-    rm ./eosio.cdt-1.4.1.x86_64.deb
+RUN wget -q https://github.com/EOSIO/eosio.cdt/releases/download/v1.5.0/eosio.cdt_1.5.0-1_amd64.deb && \
+    apt-get install ./eosio.cdt_1.5.0-1_amd64.deb && \
+    rm ./eosio.cdt_1.5.0-1_amd64.deb
